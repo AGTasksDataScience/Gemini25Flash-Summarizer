@@ -1,0 +1,14 @@
+# Ambiente Virtual
+venv/
+
+# Segredos do Streamlit (CRÍTICO! Sua chave está aqui)
+.streamlit/secrets.toml
+
+# Arquivos de log MLOps (Dados voláteis)
+log_analises.csv
+
+# Configurações locais do PyCharm
+.idea/
+
+# Ignorar arquivos de cache
+__pycache__/
